@@ -1,0 +1,17 @@
+{
+  "name": "astralis-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BetterDiscord/Vencord theme: Astralis",
+  "scripts": {
+    "build": "postcss src/index.css -o dist/Astralis.theme.css",
+    "build-prod": "NODE_ENV=production postcss src/index.css -o dist/Astralis.theme.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "cssnano": "^6.1.2",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-csso": "^5.0.0"
+  }
+}
